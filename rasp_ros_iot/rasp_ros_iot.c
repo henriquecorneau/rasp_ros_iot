@@ -25,8 +25,8 @@
 
 #define LED_PIN_G 11          // Define o pino do LED
 #define LED_PIN_R 13
-#define WIFI_SSID "*****"  // Substitua pelo nome da sua rede Wi-Fi
-#define WIFI_PASS "*******" // Substitua pela senha da sua rede Wi-Fi
+#define WIFI_SSID "JHC"  // Substitua pelo nome da sua rede Wi-Fi
+#define WIFI_PASS "jhc302010" // Substitua pela senha da sua rede Wi-Fi
 
 // Buffer para respostas HTTP
 #define HTTP_RESPONSE "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n" \

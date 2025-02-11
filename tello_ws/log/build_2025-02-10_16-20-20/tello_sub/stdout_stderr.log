@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/tello_sub/tello_sub.egg-info
+writing ../../build/tello_sub/tello_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/tello_sub/tello_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/tello_sub/tello_sub.egg-info/entry_points.txt
+writing requirements to ../../build/tello_sub/tello_sub.egg-info/requires.txt
+writing top-level names to ../../build/tello_sub/tello_sub.egg-info/top_level.txt
+writing manifest file '../../build/tello_sub/tello_sub.egg-info/SOURCES.txt'
+reading manifest file '../../build/tello_sub/tello_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/tello_sub/tello_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build
+creating /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build/lib
+creating /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build/lib/tello_sub
+copying tello_sub/__init__.py -> /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build/lib/tello_sub
+copying tello_sub/tello_subscriber.py -> /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build/lib/tello_sub
+running install
+running install_lib
+creating /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages/tello_sub
+copying /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build/lib/tello_sub/__init__.py -> /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages/tello_sub
+copying /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build/lib/tello_sub/tello_subscriber.py -> /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages/tello_sub
+byte-compiling /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages/tello_sub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages/tello_sub/tello_subscriber.py to tello_subscriber.cpython-310.pyc
+running install_data
+creating /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/share/ament_index
+creating /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/share/ament_index/resource_index
+creating /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/share/ament_index/resource_index/packages
+copying resource/tello_sub -> /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/share/ament_index/resource_index/packages
+copying package.xml -> /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/share/tello_sub
+running install_egg_info
+Copying ../../build/tello_sub/tello_sub.egg-info to /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages/tello_sub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tello_subscriber script to /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/tello_sub
+writing list of installed files to '/home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/install.log'

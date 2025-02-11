@@ -1,0 +1,24 @@
+[0.390s] Invoking command in '/home/henrique/projects/rasp_ros_iot/tello_ws/src/tello_sub': PYTHONPATH=/home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_sub build --build-base /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build install --record /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/install.log --single-version-externally-managed install_data
+[0.542s] running egg_info
+[0.543s] writing ../../build/tello_sub/tello_sub.egg-info/PKG-INFO
+[0.543s] writing dependency_links to ../../build/tello_sub/tello_sub.egg-info/dependency_links.txt
+[0.543s] writing entry points to ../../build/tello_sub/tello_sub.egg-info/entry_points.txt
+[0.543s] writing requirements to ../../build/tello_sub/tello_sub.egg-info/requires.txt
+[0.543s] writing top-level names to ../../build/tello_sub/tello_sub.egg-info/top_level.txt
+[0.545s] reading manifest file '../../build/tello_sub/tello_sub.egg-info/SOURCES.txt'
+[0.545s] writing manifest file '../../build/tello_sub/tello_sub.egg-info/SOURCES.txt'
+[0.545s] running build
+[0.545s] running build_py
+[0.545s] copying tello_sub/tello_subscriber.py -> /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build/lib/tello_sub
+[0.545s] running install
+[0.546s] running install_lib
+[0.546s] copying /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build/lib/tello_sub/tello_subscriber.py -> /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages/tello_sub
+[0.547s] byte-compiling /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages/tello_sub/tello_subscriber.py to tello_subscriber.cpython-310.pyc
+[0.547s] running install_data
+[0.547s] running install_egg_info
+[0.548s] removing '/home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages/tello_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.548s] Copying ../../build/tello_sub/tello_sub.egg-info to /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages/tello_sub-0.0.0-py3.10.egg-info
+[0.549s] running install_scripts
+[0.563s] Installing tello_subscriber script to /home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/tello_sub
+[0.563s] writing list of installed files to '/home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/install.log'
+[0.580s] Invoked command in '/home/henrique/projects/rasp_ros_iot/tello_ws/src/tello_sub' returned '0': PYTHONPATH=/home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/henrique/projects/rasp_ros_iot/tello_ws/install/tello_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_sub build --build-base /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/build install --record /home/henrique/projects/rasp_ros_iot/tello_ws/build/tello_sub/install.log --single-version-externally-managed install_data

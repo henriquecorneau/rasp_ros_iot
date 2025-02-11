@@ -1,5 +1,7 @@
 # rasp_ros_iot
-Projeto utilizando ROS2 e IoT, com a placa raspberry pi pico w.
+Projeto utilizando ROS2 e IoT, com a placa raspberry pi pico w e o drone DJI Tello.
+
+Através de uma página criada através de HTTP com o raspberry pi pico w, é possível controlar o drone DJI Tello.
 
 ## 1 - Instalação
 Instale o ROS2
@@ -76,9 +78,21 @@ snap connect micro-ros-agent:serial-port snapd:pico
 git clone https://github.com/henriqueguanais/rasp_ros_iot.git
 ```
 
-2 - Importe a pasta rasp_ros_iot, que está dentro do repositório, como projeto na extensão Raspberry Pi Pico Project
+2 - Compile o workspace ros
+```bash
+cd rasp_ros_iot/tello_ws
+colcon build --packages-select tello_sub
+echo "source install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
 
-3 - Inicialize o micro agent:
+3 - Importe a pasta rasp_ros_iot, que está dentro do repositório, como projeto na extensão Raspberry Pi Pico Project
+
+4 - Compile e run no projeto
+
+5 - Conectar ao Wi-Fi do Tello
+
+6 - Inicialize o micro agent:
 ```bash
 micro-ros-agent serial --dev /dev/ttyACM0 baudrate=115200
 ```
@@ -87,14 +101,17 @@ micro-ros-agent serial --dev /dev/ttyACM0 baudrate=115200
 ```bash
 ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0 -b 115200 -v4
 ```
-
-4 - Compile e run no projeto
-
 - O endereço IP aparecerá no display OLED.
 - Para visualizar o conteúdo postado no tópico:
 ```bash
 ros2 topic echo /pico_publisher 
 ```
+
+7 - Inicialize o pacote ros
+```bash
+ros2 run tello_sub tello_subscriber.py
+```
+
 
 
 

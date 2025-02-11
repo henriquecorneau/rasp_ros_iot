@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/tello_sub/tello_sub.egg-info/PKG-INFO
+../../build/tello_sub/tello_sub.egg-info/SOURCES.txt
+../../build/tello_sub/tello_sub.egg-info/dependency_links.txt
+../../build/tello_sub/tello_sub.egg-info/entry_points.txt
+../../build/tello_sub/tello_sub.egg-info/requires.txt
+../../build/tello_sub/tello_sub.egg-info/top_level.txt
+../../build/tello_sub/tello_sub.egg-info/zip-safe
+resource/tello_sub
+tello_sub/__init__.py
+tello_sub/tello_subscriber.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
